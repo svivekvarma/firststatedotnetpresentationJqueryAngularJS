@@ -1,0 +1,19 @@
+<div class="edittodo">
+    <h4>Editing Todo</h4>
+    <div class="todocontainer">
+        <form name="{{viewHash}}" class="form-horizontal">
+            <div>
+                <label>Id: </label> {{model.ID}}</div>
+            <div>
+                <label>Text: </label>
+                <input name="ID" value="{{model.ID}}" type="hidden" />
+                <input name="Checked" value="{{model.Checked}}" type="hidden" />
+                <input name="Desc" value="{{model.Desc}}" placeholder="text" type="text" />
+            </div>
+
+        </form>
+    </div>
+    <p>
+        <button class="btn btn-primary submit">Save and Go Back to Todo List</button>
+    </p>
+</div>

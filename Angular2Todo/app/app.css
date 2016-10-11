@@ -1,0 +1,15 @@
+.clfwrapper{
+      width: 80%;
+      margin: 50px auto;
+      background-color: white;      
+      border: 1px solid grey;
+      border-radius: 5px;
+      text-align: center;
+}
+
+.clfwrapper h1 {
+    color: steelblue;
+    margin: 20px auto;
+    width: 80%;
+    
+}

@@ -1,0 +1,11 @@
+<div class="todolist">
+    <button class="btn btn-primary add" (click)="addtodo(todo)">Add Todo</button>
+    <div class="todoitemwrapper" *ngFor="let todo of todos; let i = index">
+        <div class="desc">{{todo.Desc}}</div>
+        <div class="actions">
+            <button class="btn btn-primary" (click)="markcompleted(todo)">Mark Completed</button>
+            <button class="btn btn-primary" (click)="edittodo(todo)">Edit Item</button>
+            <button class="btn btn-danger" (click)="deletetodo(todo)">Delete</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="todolist">
+    <a class="btn btn-primary add" href="#addtodo">Add Todo</a>
+    {{#model}}
+    <div class="todoitemwrapper" >
+        <div class="desc">{{Desc}}</div>
+        <div class="actions">
+            <button data-id="{{ID}}" class="btn btn-primary markcompleted">Mark Completed</button>
+            <a class="btn btn-primary" href="#edittodo?id={{ID}}">Edit Item</a>
+            <button data-id="{{ID}}" class="btn btn-danger deletetodo">Delete</button>
+        </div>
+    </div>
+    {{/model}}
+</div>

@@ -1,0 +1,22 @@
+[
+  {
+      "id": 10,
+      "text": "Fetch groceries from safeway",
+      "checked": 0
+  },
+  {
+      "id": 11,
+      "text": "Fill gas in car",
+      "checked": 0
+  },
+  {
+      "id": 12,
+      "text": "Cut grass",
+      "checked": 0
+  },
+  {
+      "id": 13,
+      "text": "Mail out invitations",
+      "checked": 1
+  }
+]

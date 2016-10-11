@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Angular2Todo", "http://localhost:62854", "{584B7EE0-E682-4BBB-8995-51F1B9F4EF59}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62854"
+		Debug.AspNetCompiler.PhysicalPath = "..\Angular2Todo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62854\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62854"
+		Release.AspNetCompiler.PhysicalPath = "..\Angular2Todo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62854\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\Angular2Todo\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TodoRequirejs", "http://localhost:56273", "{F3EB0348-5AC9-44FD-A809-0CA8D984F4D6}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56273"
+		Debug.AspNetCompiler.PhysicalPath = "..\TodoRequirejs\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56273\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56273"
+		Release.AspNetCompiler.PhysicalPath = "..\TodoRequirejs\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56273\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\TodoRequirejs\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs2012.doesis.pas:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = http://localhost:62854
+		SccLocalPath1 = .
+		SccProjectEnlistmentChoice1 = 2
+		SccWebProject2 = true
+		SccProjectUniqueName2 = http://localhost:56273
+		SccProjectName2 = ../TodoRequirejs
+		SccLocalPath2 = ..\\TodoRequirejs
+		SccProjectEnlistmentChoice2 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{584B7EE0-E682-4BBB-8995-51F1B9F4EF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584B7EE0-E682-4BBB-8995-51F1B9F4EF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EB0348-5AC9-44FD-A809-0CA8D984F4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EB0348-5AC9-44FD-A809-0CA8D984F4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

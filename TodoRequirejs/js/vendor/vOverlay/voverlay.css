@@ -1,0 +1,71 @@
+.mask {
+    position: fixed;
+    z-index: 1000;
+    background-color: #000;
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 100%; /*opacity: 0.35;*/
+}
+
+.window {
+    position: fixed;
+    display: block;
+    z-index: 1100;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 2px solid rgb(99, 94, 94);
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px black;
+}
+
+    .window h2 {
+        margin: 0px 0px 0px 0px;
+        text-align: left;
+        width: 100%;
+        border-bottom: 1px solid grey;
+    }
+
+.voverlaycontent {
+    margin: 15px 0px 0px 0px;
+}
+
+.voverlayclose {
+    text-indent: -1000000px;
+    float: right;
+    position: absolute;
+    /*float: right;*/
+    top: -2px;
+    right: -2px;
+    clear: both;
+    overflow: hidden;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin: 3px;
+    vertical-align: middle;
+    cursor: pointer;
+    background: url('voverlayclose.png') 0px 0px;
+    background-repeat: no-repeat;
+}
+
+    .voverlayclose:hover {
+        background: url('voverlayclose.png') 0px -34px;
+    }
+
+.voverlaywrapped {
+    float: right;
+    position: static;
+    /*float: right;*/
+    clear: none;
+}
+
+.voverlaymodalactioncontainer {
+    text-align: right;
+    padding: 10px 0px 0px 0px;
+    clear:both;
+}
+
+.voverlaymodalactioncontainer .voverlayModalYesButton, .voverlayModalNoButton,voverlayModalCancelButton {
+    margin:0px 5px;
+}

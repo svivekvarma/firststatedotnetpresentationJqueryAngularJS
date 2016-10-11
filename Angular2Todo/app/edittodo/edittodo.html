@@ -1,0 +1,14 @@
+<div class="edittodo">
+  <h4>Editing Todo</h4>
+  <div class="todocontainer" *ngIf="todo">
+    <div>
+      <label>Id: </label>   {{todo.ID}}</div>
+    <div>
+      <label>Text: </label>
+      <input [(ngModel)]="todo.Desc" placeholder="text" />
+    </div>
+    <p>
+      <button class="btn btn-primary back" (click)="gotoTodos()">Back</button>
+    </p>
+  </div>
+</div>

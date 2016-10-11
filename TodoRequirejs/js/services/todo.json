@@ -1,0 +1,22 @@
+[
+  {
+      "ID": 10,
+      "Desc": "Fetch groceries from safeway",
+      "IsChecked": 0
+  },
+  {
+      "ID": 11,
+      "Desc": "Fill gas in car",
+      "IsChecked": 0
+  },
+  {
+      "ID": 12,
+      "Desc": "Cut grass",
+      "IsChecked": 0
+  },
+  {
+      "ID": 13,
+      "Desc": "Mail out invitations",
+      "IsChecked": 1
+  }
+]
